@@ -1,0 +1,2567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="apps_labexc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apps_labexc">
+				<Option output="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/apps_labexc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 apps_labexc"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="apps_labexc/fast">
+				<Option output="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/apps_labexc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers"/>
+					<Add directory="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 apps_labexc/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/main-demo.cpp">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/RTE_Components.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PeripheralNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PinNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/crc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/device.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_clock_config.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_phy.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12_features.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis_nvic.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/fsl_device_registers.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/system_MK64F12.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/dma_reqs.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_adc16.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_clock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmp.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmt.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_crc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dac.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dmamux.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_enet.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ewm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flash.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexbus.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexcan.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ftm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_gpio.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_llwu.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_lptmr.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pdb.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pit.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pmc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_port.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rcm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rnga.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rtc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sdhc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sim.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_smc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sysmpu.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_vref.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_wdog.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/peripheral_clock_defines.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PeripheralPins.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PortNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/dma_api_hal.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/gpio_object.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/objects.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/TARGET_Freescale/mbed_rtx.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/arm_math.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/cmsis_armcc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/cmsis_armclang.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/cmsis_compiler.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/cmsis_gcc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/cmsis_iccarm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/cmsis_version.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_armv8mbl.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_armv8mml.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_cm0.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_cm0plus.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_cm23.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_cm3.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_cm33.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_cm4.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_cm7.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_cmSecureAccess.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_sc000.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/core_sc300.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/mbed_cmsis_conf.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/mpu_armv7.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/mpu_armv8.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/TARGET_K64F/tz_context.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/AnalogIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/AnalogOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/BusIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/BusInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/BusOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/CAN.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/DigitalIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/DigitalInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/DigitalOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/Ethernet.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/FlashIAP.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/I2C.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/I2CSlave.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/InterruptIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/InterruptManager.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/LowPowerTicker.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/LowPowerTimeout.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/LowPowerTimer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/MbedCRC.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/PortIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/PortInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/PortOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/PwmOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/RawSerial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/SPI.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/SPISlave.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/Serial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/SerialBase.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/SerialWireOutput.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/TableCRC.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/Ticker.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/Timeout.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/Timer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/TimerEvent.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/drivers/UARTSerial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/Driver_Common.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/Driver_Storage.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/analogin_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/analogout_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/buffer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/can_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/can_helper.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/crc_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/critical_section_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/dma_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/ethernet_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/flash_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/flash_data.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/gpio_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/gpio_irq_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/i2c_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/itm_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/lp_ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/pinmap.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/port_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/pwmout_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/rtc_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/serial_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/sleep_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/spi_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/trng_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/hal/us_ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/mbed.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/ATCmdParser.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/CThunk.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/CallChain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/Callback.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/CircularBuffer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/CriticalSectionLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/DeepSleepLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/DirHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/FileBase.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/FileHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/FileLike.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/FilePath.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/FileSystemHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/FileSystemLike.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/FunctionPointer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/LocalFileSystem.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/NonCopyable.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/PlatformMutex.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/ScopedLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/SingletonPtr.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/Stream.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/Transaction.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/critical.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_application.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_assert.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_critical.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_debug.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_error.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_error_hist.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_interface.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_mem_trace.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_mktime.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_poll.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_power_mgmt.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_preprocessor.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_retarget.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_rtc_time.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_semihost_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_sleep.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_stats.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_toolchain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/mbed_wait_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/platform.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/rtc_time.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/semihost_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/sleep.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/toolchain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed/platform/wait_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/demo/mbed_config.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/i2c-lib.cpp">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/i2c-lib.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/main-i2c.cpp">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/RTE_Components.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PeripheralNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PinNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/crc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/device.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_clock_config.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_phy.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12_features.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis_nvic.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/fsl_device_registers.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/system_MK64F12.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/dma_reqs.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_adc16.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_clock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmp.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmt.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_crc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dac.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dmamux.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_enet.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ewm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flash.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexbus.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexcan.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ftm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_gpio.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_llwu.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_lptmr.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pdb.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pit.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pmc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_port.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rcm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rnga.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rtc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sdhc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sim.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_smc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sysmpu.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_vref.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_wdog.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/peripheral_clock_defines.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PeripheralPins.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PortNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/dma_api_hal.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/gpio_object.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/objects.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/TARGET_Freescale/mbed_rtx.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/arm_math.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/cmsis_armcc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/cmsis_armclang.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/cmsis_compiler.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/cmsis_gcc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/cmsis_iccarm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/cmsis_version.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_armv8mbl.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_armv8mml.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_cm0.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_cm0plus.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_cm23.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_cm3.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_cm33.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_cm4.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_cm7.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_cmSecureAccess.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_sc000.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/core_sc300.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/mbed_cmsis_conf.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/mpu_armv7.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/mpu_armv8.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/TARGET_K64F/tz_context.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/AnalogIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/AnalogOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/BusIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/BusInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/BusOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/CAN.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/DigitalIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/DigitalInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/DigitalOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/Ethernet.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/FlashIAP.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/I2C.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/I2CSlave.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/InterruptIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/InterruptManager.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/LowPowerTicker.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/LowPowerTimeout.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/LowPowerTimer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/MbedCRC.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/PortIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/PortInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/PortOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/PwmOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/RawSerial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/SPI.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/SPISlave.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/Serial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/SerialBase.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/SerialWireOutput.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/TableCRC.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/Ticker.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/Timeout.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/Timer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/TimerEvent.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/drivers/UARTSerial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/Driver_Common.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/Driver_Storage.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/analogin_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/analogout_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/buffer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/can_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/can_helper.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/crc_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/critical_section_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/dma_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/ethernet_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/flash_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/flash_data.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/gpio_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/gpio_irq_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/i2c_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/itm_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/lp_ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/pinmap.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/port_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/pwmout_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/rtc_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/serial_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/sleep_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/spi_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/trng_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/hal/us_ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/ATCmdParser.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/CThunk.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/CallChain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/Callback.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/CircularBuffer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/CriticalSectionLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/DeepSleepLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/DirHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/FileBase.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/FileHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/FileLike.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/FilePath.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/FileSystemHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/FileSystemLike.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/FunctionPointer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/LocalFileSystem.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/NonCopyable.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/PlatformMutex.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/ScopedLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/SingletonPtr.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/Stream.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/Transaction.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/critical.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_application.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_assert.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_critical.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_debug.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_error.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_error_hist.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_interface.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_mem_trace.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_mktime.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_poll.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_power_mgmt.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_preprocessor.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_retarget.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_rtc_time.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_semihost_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_sleep.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_stats.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_toolchain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/mbed_wait_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/platform.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/rtc_time.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/semihost_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/sleep.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/toolchain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed/platform/wait_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/mbed_config.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/si4735-lib.cpp">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/i2c/si4735-lib.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/font8x8.cpp">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/lcd_lib.cpp">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/lcd_lib.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/main-lcd.cpp">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/RTE_Components.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PeripheralNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PinNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/crc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/device.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_clock_config.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_phy.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12_features.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis_nvic.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/fsl_device_registers.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/system_MK64F12.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/dma_reqs.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_adc16.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_clock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmp.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmt.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_crc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dac.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dmamux.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_enet.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ewm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flash.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexbus.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexcan.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ftm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_gpio.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_llwu.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_lptmr.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pdb.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pit.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pmc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_port.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rcm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rnga.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rtc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sdhc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sim.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_smc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sysmpu.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_vref.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_wdog.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/peripheral_clock_defines.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PeripheralPins.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PortNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/dma_api_hal.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/gpio_object.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/objects.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/TARGET_Freescale/mbed_rtx.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/arm_math.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/cmsis_armcc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/cmsis_armclang.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/cmsis_compiler.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/cmsis_gcc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/cmsis_iccarm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/cmsis_version.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_armv8mbl.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_armv8mml.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_cm0.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_cm0plus.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_cm23.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_cm3.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_cm33.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_cm4.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_cm7.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_cmSecureAccess.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_sc000.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/core_sc300.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/mbed_cmsis_conf.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/mpu_armv7.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/mpu_armv8.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/TARGET_K64F/tz_context.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/AnalogIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/AnalogOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/BusIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/BusInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/BusOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/CAN.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/DigitalIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/DigitalInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/DigitalOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/Ethernet.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/FlashIAP.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/I2C.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/I2CSlave.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/InterruptIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/InterruptManager.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/LowPowerTicker.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/LowPowerTimeout.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/LowPowerTimer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/MbedCRC.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/PortIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/PortInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/PortOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/PwmOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/RawSerial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/SPI.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/SPISlave.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/Serial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/SerialBase.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/SerialWireOutput.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/TableCRC.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/Ticker.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/Timeout.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/Timer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/TimerEvent.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/drivers/UARTSerial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/Driver_Common.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/Driver_Storage.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/analogin_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/analogout_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/buffer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/can_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/can_helper.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/crc_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/critical_section_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/dma_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/ethernet_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/flash_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/flash_data.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/gpio_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/gpio_irq_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/i2c_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/itm_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/lp_ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/pinmap.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/port_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/pwmout_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/rtc_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/serial_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/sleep_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/spi_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/trng_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/hal/us_ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/ATCmdParser.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/CThunk.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/CallChain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/Callback.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/CircularBuffer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/CriticalSectionLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/DeepSleepLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/DirHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/FileBase.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/FileHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/FileLike.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/FilePath.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/FileSystemHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/FileSystemLike.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/FunctionPointer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/LocalFileSystem.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/NonCopyable.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/PlatformMutex.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/ScopedLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/SingletonPtr.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/Stream.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/Transaction.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/critical.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_application.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_assert.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_critical.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_debug.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_error.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_error_hist.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_interface.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_mem_trace.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_mktime.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_poll.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_power_mgmt.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_preprocessor.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_retarget.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_rtc_time.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_semihost_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_sleep.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_stats.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_toolchain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/mbed_wait_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/platform.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/rtc_time.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/semihost_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/sleep.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/toolchain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed/platform/wait_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/lcd/mbed_config.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/main-leds.cpp">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/RTE_Components.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PeripheralNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/PinNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/crc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/device.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_clock_config.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/TARGET_FRDM/fsl_phy.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/MK64F12_features.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/cmsis_nvic.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/fsl_device_registers.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/device/system_MK64F12.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/dma_reqs.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_adc16.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_clock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmp.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_cmt.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_common.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_crc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dac.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dmamux.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_dspi_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_enet.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ewm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flash.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexbus.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_flexcan.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_ftm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_gpio.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_i2c_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_llwu.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_lptmr.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pdb.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pit.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_pmc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_port.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rcm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rnga.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_rtc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sai_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sdhc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sim.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_smc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_sysmpu.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_uart_edma.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_vref.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/drivers/fsl_wdog.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/TARGET_MCU_K64F/peripheral_clock_defines.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PeripheralPins.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/PortNames.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/dma_api_hal.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/gpio_object.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/TARGET_MCUXpresso_MCUS/api/objects.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/TARGET_Freescale/mbed_rtx.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/arm_math.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/cmsis_armcc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/cmsis_armclang.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/cmsis_compiler.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/cmsis_gcc.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/cmsis_iccarm.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/cmsis_version.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_armv8mbl.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_armv8mml.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_cm0.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_cm0plus.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_cm23.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_cm3.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_cm33.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_cm4.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_cm7.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_cmSecureAccess.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_sc000.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/core_sc300.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/mbed_cmsis_conf.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/mpu_armv7.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/mpu_armv8.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/TARGET_K64F/tz_context.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/AnalogIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/AnalogOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/BusIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/BusInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/BusOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/CAN.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/DigitalIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/DigitalInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/DigitalOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/Ethernet.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/FlashIAP.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/I2C.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/I2CSlave.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/InterruptIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/InterruptManager.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/LowPowerTicker.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/LowPowerTimeout.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/LowPowerTimer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/MbedCRC.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/PortIn.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/PortInOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/PortOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/PwmOut.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/RawSerial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/SPI.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/SPISlave.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/Serial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/SerialBase.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/SerialWireOutput.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/TableCRC.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/Ticker.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/Timeout.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/Timer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/TimerEvent.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/drivers/UARTSerial.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/Driver_Common.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/Driver_Storage.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/analogin_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/analogout_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/buffer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/can_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/can_helper.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/crc_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/critical_section_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/dma_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/ethernet_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/flash_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/flash_data.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/gpio_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/gpio_irq_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/i2c_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/itm_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/lp_ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/pinmap.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/port_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/pwmout_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/rtc_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/serial_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/sleep_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/spi_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/trng_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/hal/us_ticker_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/ATCmdParser.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/CThunk.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/CallChain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/Callback.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/CircularBuffer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/CriticalSectionLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/DeepSleepLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/DirHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/FileBase.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/FileHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/FileLike.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/FilePath.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/FileSystemHandle.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/FileSystemLike.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/FunctionPointer.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/LocalFileSystem.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/NonCopyable.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/PlatformMutex.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/ScopedLock.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/SingletonPtr.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/Stream.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/Transaction.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/critical.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_application.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_assert.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_critical.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_debug.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_error.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_error_hist.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_interface.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_mem_trace.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_mktime.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_poll.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_power_mgmt.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_preprocessor.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_retarget.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_rtc_time.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_semihost_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_sleep.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_stats.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_toolchain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/mbed_wait_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/platform.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/rtc_time.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/semihost_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/sleep.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/toolchain.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed/platform/wait_api.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/workspace.mcu/leds/mbed_config.h">
+			<Option target="apps_labexc"/>
+		</Unit>
+		<Unit filename="/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

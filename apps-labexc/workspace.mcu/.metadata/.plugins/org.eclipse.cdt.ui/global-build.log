@@ -1,0 +1,6 @@
+11:13:59 **** Clean-only build of configuration Debug for project leds ****
+make -r -j8 mbedclean 
+rm -rf  ./main-leds.o 
+rm -rf  ./main-leds.d 
+rm -rf  leds.* linker-script-*.ld
+ 

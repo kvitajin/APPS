@@ -1,0 +1,3 @@
+ledka rozsviti, rozjede se for, pokud modulo i bude urcite cislo,t ak zhasne, stejně tak se rozsviti
+
+druha jede stejne, ale s jinym modulem

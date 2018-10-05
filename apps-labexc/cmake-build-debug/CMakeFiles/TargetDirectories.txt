@@ -1,0 +1,3 @@
+/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kvitajin/CLionProjects/vsb/apps/apps-labexc/cmake-build-debug/CMakeFiles/apps_labexc.dir

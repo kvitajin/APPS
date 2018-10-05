@@ -1,0 +1,9 @@
+11:13:56 **** Clean-only build of configuration Debug for project lcd ****
+make -r -j8 mbedclean 
+rm -rf  ./font8x8.o ./lcd_lib.o ./main-lcd.o 
+rm -rf  ./font8x8.d ./lcd_lib.d ./main-lcd.d 
+rm -rf  lcd.* linker-script-*.ld
+ 
+
+11:13:57 Build Finished (took 329ms)
+

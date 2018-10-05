@@ -1,0 +1,3 @@
+/home/kvitajin/CLionProjects/vsb/apps/threads-demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kvitajin/CLionProjects/vsb/apps/threads-demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kvitajin/CLionProjects/vsb/apps/threads-demo/cmake-build-debug/CMakeFiles/threads_demo.dir

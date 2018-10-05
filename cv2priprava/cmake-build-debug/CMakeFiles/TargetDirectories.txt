@@ -1,0 +1,3 @@
+/home/kvitajin/CLionProjects/vsb/apps/cv2priprava/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kvitajin/CLionProjects/vsb/apps/cv2priprava/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kvitajin/CLionProjects/vsb/apps/cv2priprava/cmake-build-debug/CMakeFiles/cv2priprava.dir
