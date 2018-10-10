@@ -19,8 +19,7 @@
 	KIT_LED1=0;
 	wait_ms(timeOff);
 }*/
-bool flag=0;
-int stav=0;
+
 int rh=0, gh=10, bh=0, rl=0, gl=100, bl=0;
 
 
@@ -40,7 +39,10 @@ bool stisk(DigitalIn *butt){
     return false;
 }
 class ledKit{
+bool flag=0;
+int stav=0;
 
+int rh=0, gh=10, bh=0, rl=0, gl=100, bl=0;
 
 public:
 	ledKit();
@@ -48,6 +50,24 @@ public:
 	void ledBrightH();
 	void ledBrightL();
 	void Signal();
+
+	bool getFlag();
+	int  getStav();
+	int  getRH();
+	int  getGH();
+	int  getBH();
+	int  getRL();
+	int  getGL();
+	int  getBL();
+
+	void setFlag(bool flag);
+	void setStav(int stav);
+	void setRH(int rh);
+	void setGH(int gh);
+	void setBH(int bh);
+	void setRL(int rl);
+	void setGL(int gl);
+	void setBL(int bl);
 };
 
 
@@ -133,6 +153,23 @@ void ledKit::Signal(){
 		}
 	}*/
 }
+bool ledKit::getFlag(){return this->flag;}
+int  ledKit::getStav(){return this->stav;}
+int  ledKit::getRH(){return this->gh;}
+int  ledKit::getGH(){return this->rh;}
+int  ledKit::getBH(){return this->bh;}
+int  ledKit::getRL(){return this->rl;}
+int  ledKit::getGL(){return this->gl;}
+int  ledKit::getBL(){return this->bl;}
+
+void ledKit::setFlag(bool flag){this->flag=flag;}
+void ledKit::setStav(int stav){this->stav=stav;}
+void ledKit::setRH(int rh){this->rh=rh;}
+void ledKit::setGH(int gh){this->gh=gh;}
+void ledKit::setBH(int bh){this->bh=bh;}
+void ledKit::setRL(int rl){this->rl=rl;}
+void ledKit::setGL(int gl){this->gl=gl;}
+void ledKit::setBL(int bl){this->bl=bl;}
 int main()
 {
 	pc.baud( 115200 );
