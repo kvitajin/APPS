@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/threads0.dir/main.cpp.o  -o threads0 
