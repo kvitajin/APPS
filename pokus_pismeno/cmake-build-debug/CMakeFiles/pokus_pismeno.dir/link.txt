@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pokus_pismeno.dir/main.cpp.o  -o pokus_pismeno 

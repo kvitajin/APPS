@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kvitajin/CLionProjects/vsb/apps/threads0/main.cpp
+/home/kvitajin/CLionProjects/vsb/apps/pokus_pismeno/main.cpp
 iostream
--
-thread
--
-stdlib.h
--
-sys/time.h
--
-random
--
-vector
--
-algorithm
 -
 
