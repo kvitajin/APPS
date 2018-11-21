@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kvitajin/CLionProjects/vsb/apps/cuda-demo-20181112/cuda1/main1.cpp
+stdio.h
+-
+cuda_device_runtime_api.h
+-
+cuda_runtime.h
+-
+

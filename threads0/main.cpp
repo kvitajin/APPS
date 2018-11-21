@@ -47,9 +47,7 @@ void Pole::printPole(int n=1) {
             std::cout   <<  pole[j] <<  " ";
         }
     }
-    /*for (int i : pole) {
-        std::cout<< i <<" ";
-    }*/
+
 
 }
 
@@ -155,6 +153,63 @@ void b_sort(int &arr, int len)
         }
     }
 }*/
+vector<char> letters={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
+                      'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+
+class character{
+public:
+    int id;
+    int from, to;
+    static vector<char> data;
+
+    long int data_len;
+
+    character(int id, int from, int to,long int len);   //std::vector<char> *pole
+
+    void showAll();
+    void show();
+    void sort_me();
+    void generate();
+};
+std::vector<char> character::data;
+
+void character::showAll() {
+    for (char i : character::data) {
+        std::cout   << i <<  " ";
+    }
+}
+
+void character::show() {
+    for (int i = this->from; i < this->to; ++i) {
+        std::cout   <<  data[i] <<  " ";
+    }
+
+}
+
+
+void character::sort_me() {
+    std::sort(data.begin(), data.end());                //data.begin()+this->from, data.begin()+this->to
+
+}
+
+void character::generate() {
+    int tmp;
+    for (int i = this->from; i < this->to; ++i) {                   //int i = this->from; i < this->to; ++i
+        tmp=rd()%letters.size();
+        //std::cout <<letters[tmp];
+        data[i]=letters[tmp];
+    }
+}
+
+character::character(int id, int from, int to, long int len){
+    this->id=id;
+    this->from=from;
+    this->to=to;
+    this->data_len=len;
+   character::data.resize(len);
+}
+
+
 
 int main()
 {
@@ -164,7 +219,7 @@ int main()
     //fill_array(arr, 10, 20);
     //b_sort(arr, len);
     print_array(arr, len);*/
-    int thread, siz;
+    /*int thread, siz;
     std::cout   <<  "zadej pocet vlaken:";
     std::cin    >>  thread;
     std::cout   <<  "zadej celikost pole:";
@@ -177,7 +232,7 @@ int main()
         std::cout   <<  "spatna velikost pole";
         return 1;
     }
-    Pole *arry= new Pole(siz);
+    Pole *arry= new Pole(siz);*/
 
 
     /*int size=arry->getSize();
@@ -196,7 +251,7 @@ int main()
     arry->sortAray();
     arry->printPole();
 */
-    clock_t before, after;
+    /*clock_t before, after;
     before=clock();
     int size=arry->getSize();
     if (thread==1) {
@@ -235,13 +290,29 @@ int main()
     double timeMs=timeTick/(CLOCKS_PER_SEC/1000);
     std::cout   <<  "Time: "    <<   timeMs   <<  "\n";
     //printf( "The fill time: %d [ms]\n", timeval_to_ms( &time_before, &time_after ) );
-    std::cout<<"\n";
+    std::cout<<"\n";*/
 
    /* arry->sortAray();
     arry->printPrvek(5);
 */
+    //std::vector<char>* pole;
+    auto *jedu= new character(1, 0, 25, 50);
+    auto *jedu2= new character(2, 26, 50, 50);
+    std::vector<std::thread> vlakna;
+    jedu->generate();
+    jedu2->generate();
+    jedu->show();
+    std::cout   <<  "\n\n";
+    jedu->showAll();
+    std::cout<<"\n\n";
+    jedu->sort_me();
+    jedu->showAll();
+
+
+
 
 
 
     return 0;
 }
+;

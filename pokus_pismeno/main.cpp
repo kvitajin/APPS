@@ -1,7 +1,5 @@
 #include <iostream>
-#include <graphics.h>
-#include<conio.h>
-//#include "font8x8/font8x8.h"
+#include "font8x8/font8x8.h"
 
 /*LCD_init();
 LCD_clear();
@@ -54,6 +52,41 @@ function obdelnik (x, y, xx, yy, color) {
     }
 }
 obdelnik(60, 40, 180, 280, "0000000000011111");
+
+
+ function kruh (x0, y0, radius, barva){
+    x=radius-1;
+    y=0;
+    dy=1;
+    dx=1;
+    err=dx-(radius<<1);
+
+while (x >= y)
+    {
+        LCD_put_pixel(x0 + x, y0 + y, barva);
+        LCD_put_pixel(x0 + y, y0 + x, barva);
+        LCD_put_pixel(x0 - y, y0 + x, barva);
+        LCD_put_pixel(x0 - x, y0 + y, barva);
+        LCD_put_pixel(x0 - x, y0 - y, barva);
+        LCD_put_pixel(x0 - y, y0 - x, barva);
+        LCD_put_pixel(x0 + y, y0 - x, barva);
+        LCD_put_pixel(x0 + x, y0 - y, barva);
+
+        if (err <= 0)
+        {
+            y++;
+            err += dy;
+            dy += 2;
+        }
+
+        if (err > 0)
+        {
+            x--;
+            dx += 2;
+            err += dx - (radius << 1);
+        }
+    }
+}
 */
 
 void drawcircle(int x0, int y0, int radius)
@@ -66,7 +99,7 @@ void drawcircle(int x0, int y0, int radius)
 
     while (x >= y)
     {
-        putpixel(x0 + x, y0 + y);
+        (x0 + x, y0 + y);
         putpixel(x0 + y, y0 + x);
         putpixel(x0 - y, y0 + x);
         putpixel(x0 - x, y0 + y);

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ldc1.dir/main.cpp.o  -o ldc1 

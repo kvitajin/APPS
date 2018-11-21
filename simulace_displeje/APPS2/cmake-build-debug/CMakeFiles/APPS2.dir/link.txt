@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/APPS2.dir/main.cpp.o CMakeFiles/APPS2.dir/font8x8.cpp.o CMakeFiles/APPS2.dir/font36.cpp.o CMakeFiles/APPS2.dir/template.cpp.o  -o APPS2 

@@ -1,0 +1,4 @@
+/home/kvitajin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4505.18/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kvitajin/CLionProjects/vsb/apps/simulace_displeje/APPS2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kvitajin/CLionProjects/vsb/apps/simulace_displeje/APPS2/cmake-build-debug

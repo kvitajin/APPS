@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/sem_2.dir/main.cpp.o CMakeFiles/sem_2.dir/font8x8.cpp.o CMakeFiles/sem_2.dir/font36.cpp.o CMakeFiles/sem_2.dir/template.cpp.o  -o sem_2 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kvitajin/CLionProjects/vsb/apps/threadsZake/main.cpp
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+sys/time.h
+-
+sys/param.h
+-
+pthread.h
+-
+cctype
+-
+iostream
+-
+

@@ -1,9 +1,4 @@
-#include "../pokus_pismeno/font8x8/font8x8.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include "../libgraph-1.0.2/graphics.h"
 
-#include <>
 
 int main(int argc, char **argv) {
     // gm is Graphics mode which is a computer display

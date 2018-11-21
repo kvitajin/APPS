@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cuda1.dir/main1.cpp.o  -o cuda1 

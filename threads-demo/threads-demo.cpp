@@ -26,8 +26,8 @@ struct thread_argument
     TYPE max;               // result 
 };
 
-// function search_max search the largest number in part of array
-// from the left (included) up to the right element
+/// function search_max search the largest number in part of array
+/// from the left (included) up to the right element
 TYPE search_max( int left, int length, TYPE *array )
 {
     TYPE max_elem = array[ left ];
@@ -37,9 +37,9 @@ TYPE search_max( int left, int length, TYPE *array )
     return max_elem;
 }
 
-// Thread will search the largest element in array 
-// from element arg->from with length of arg->length.
-// Result will be stored to arg->max.
+/// Thread will search the largest element in array
+/// from element arg->from with length of arg->length.
+/// Result will be stored to arg->max.
 void *my_thread( void *void_arg )
 {
     thread_argument *ptr_data = ( thread_argument * ) void_arg;

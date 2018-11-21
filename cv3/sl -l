@@ -1,0 +1,30 @@
+SL(1)                       General Commands Manual                      SL(1)
+
+[1mNAME[0m
+       sl - cure your bad habit of mistyping
+
+[1mSYNOPSIS[0m
+       [1msl [22m[ [1m-alFc [22m]
+
+[1mDESCRIPTION[0m
+       [1msl  [22mis a highly advanced animation program for curing your bad habit of
+       mistyping.
+
+       [1m-a     [22mAn accident is occurring. People cry for help.
+
+       [1m-l     [22mLittle version
+
+       [1m-F     [22mIt flies like the galaxy express 999.
+
+       [1m-c     [22mC51 appears instead of D51.
+
+[1mSEE ALSO[0m
+       [1mls[22m(1)
+
+[1mBUGS[0m
+       It sometimes lists directory contents.
+
+[1mAUTHOR[0m
+       Toyoda Masashi (mtoyoda@acm.org)
+
+                                March 31, 2014                           SL(1)

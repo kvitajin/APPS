@@ -12,93 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601d72ad-be49-451e-aa05-5dabbb75dd29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/lcd/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/lcd/.idea/lcd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/lcd/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/lcd/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/lcd/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/lcd/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/.idea/pismenoClang.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/C.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/pismenoClang.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/pismenoClang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pismenoClang/cmake-build-debug/pismenoClang.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/.idea/pokus_pismeno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/pokus_pismeno.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pokus_pismeno/cmake-build-debug/pokus_pismeno.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cuda-demo-20181112/cuda1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cuda-demo-20181112/cuda1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cuda-demo-20181112/cuda1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threadsZake/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threadsZake/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/dictionaries/kvitajin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/tmp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmp/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/lcd/main-lcd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/lcd/main-lcd.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/leds/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-labexc/workspace.mcu/leds/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pismenoClang/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../pismenoClang/main.c" afterDir="false" />
@@ -118,16 +45,15 @@
       <change beforePath="$PROJECT_DIR$/../threads-demo/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../threads-demo/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../threads-demo/threads-demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../threads-demo/threads-demo.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/threads0.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/threads0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/threads0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -142,15 +68,19 @@
     <session id="1554699478">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2389" />
+          <entry key="cpp" value="4434" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -158,17 +88,19 @@
         <counts>
           <entry key="CMakeLists.txt" value="2" />
           <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="2387" />
+          <entry key="ObjectiveC" value="4432" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="cpp" value="1" />
+          <entry key="h" value="3" />
           <entry key="thread" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="3" />
+          <entry key="ObjectiveC" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -181,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+              <caret line="4" column="15" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -189,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="232" column="6" selection-start-line="232" selection-start-column="6" selection-end-line="232" selection-end-column="6" />
+            <state relative-caret-position="828">
+              <caret line="162" column="18" selection-start-line="162" selection-end-line="163" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -199,15 +131,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Stažené/Four more Points.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/8/thread">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-526">
+            <state relative-caret-position="1098">
               <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>vector</find>
+      <find>thread</find>
+      <find>show</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -226,6 +177,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="1200" />
@@ -269,12 +221,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="threads0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="threads0" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
@@ -324,16 +287,25 @@
       <updated>1541599249111</updated>
       <workItem from="1541599251986" duration="12819000" />
       <workItem from="1541663952665" duration="4821000" />
+      <workItem from="1542113884970" duration="2094000" />
+      <workItem from="1542267649841" duration="4301000" />
+      <workItem from="1542272023984" duration="6715000" />
+      <workItem from="1542278811528" duration="316000" />
+      <workItem from="1542298105932" duration="101000" />
+      <workItem from="1542298701349" duration="2826000" />
+      <workItem from="1542459917315" duration="7167000" />
+      <workItem from="1542666434060" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17640000" />
+    <option name="totallyTimeSpent" value="41229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20384204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -362,24 +334,55 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file:///usr/include/c++/8/bits/stl_algo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1851" column="10" selection-start-line="1851" selection-start-column="10" selection-end-line="1851" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/8/bits/predefined_ops.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/bits/pthreadtypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+          <caret line="4" column="15" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Stažené/Four more Points.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/include/c++/8/thread">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
+        <state relative-caret-position="1098">
           <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="232" column="6" selection-start-line="232" selection-start-column="6" selection-end-line="232" selection-end-column="6" />
+        <state relative-caret-position="828">
+          <caret line="162" column="18" selection-start-line="162" selection-end-line="163" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

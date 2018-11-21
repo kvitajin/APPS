@@ -1,0 +1,15 @@
+Priklady programovani CUDA technologie v OS Linux pro predmet APPS.
+(c) Petr Olivka, katedra informatiky, FEI, VSB-TU Ostrava
+
+V souboru makefile.vars nastavte cestu do adresare s nainstalovanym
+CUDA toolkit.
+
+Kazdy adresar cuda* obsahuje Makefile, staci tedy pro sestaveni programu
+zavolat v kazdem adresari prikaz "make".
+
+Pred spustenim vsech demo programu musite mit nastavenu cestu k dynamickym
+knihovnam cuda*.so. Provedte prikazem:
+
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+
+Prislusna cesta musi korespondovat s udaji uvedenymi v souboru makefile.vars.

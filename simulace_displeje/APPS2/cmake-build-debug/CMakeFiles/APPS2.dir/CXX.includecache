@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kvitajin/CLionProjects/vsb/apps/simulace_displeje/APPS2/font36.cpp
+cstdint
+-
+
+/home/kvitajin/CLionProjects/vsb/apps/simulace_displeje/APPS2/font8x8.cpp
+cstdint
+-
+
+/home/kvitajin/CLionProjects/vsb/apps/simulace_displeje/APPS2/main.cpp
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+opencv2/opencv.hpp
+-
+font8x8.cpp
+/home/kvitajin/CLionProjects/vsb/apps/simulace_displeje/APPS2/font8x8.cpp
+font36.cpp
+/home/kvitajin/CLionProjects/vsb/apps/simulace_displeje/APPS2/font36.cpp
+

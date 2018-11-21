@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kvitajin/CLionProjects/vsb/apps/ldc1/lcd_lib.h
+
+/home/kvitajin/CLionProjects/vsb/apps/ldc1/main.cpp
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+opencv2/opencv.hpp
+-
+lcd_lib.h
+/home/kvitajin/CLionProjects/vsb/apps/ldc1/lcd_lib.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+opencv2/opencv.hpp
+-
+
